@@ -1,0 +1,120 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1,53,128);
+    color:white;
+    padding: 15px;
+}
+
+#hoteles-tab{
+    background-color: rgb(255, 215, 17);
+    color:black;
+}
+
+#buscador{
+    margin-top: 40px;
+    align-self: center;
+}
+
+#cajaInputs{
+     background-color: rgb(255,215,17); 
+}
+
+body{
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#caja{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+img{
+    width: 20px;
+    filter: hue-rotate(120deg);
+}
+
+input{
+    border:0;
+    outline:none;
+}
+
+.nav-link{
+    background-color: rgb(1, 53, 128);
+    color:white;
+}
+
+#buscarButton{
+    margin-left: 10px;
+    background-color: orange;
+    color:white;
+    padding: 0;
+}
+
+select{
+    overflow: hidden;
+    border: none;
+    outline: none;
+}
+
+option{
+    padding: 5px;
+}
+
+#diarias{
+    border-top: solid 0.5px rgba(0, 0, 0, 0.5);
+}
+
+option:hover{
+    background-color: rgba(0, 0, 0, 0.13);
+}
+
+#cajaHab{
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.habitaciones{
+    display: flex;
+    flex-flow: row wrap;
+    border:solid;
+}
+
+.hab{
+    min-width: 120px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    border: solid 1px gray;
+}
+
+#adultosCont, #niñosCont{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.botonAñadir{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonAñadir:hover {
+    background-color: rgba(74, 131, 255, 0.13);
+    cursor: pointer;
+}
+
+.boton a {
+    color: rgba(28, 164, 255, 0.719);
+    text-decoration: none;
+    padding: 5px 5px 5px 0;
+}
